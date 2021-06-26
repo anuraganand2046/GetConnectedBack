@@ -3,7 +3,7 @@
         "MONGO_USER": "anuraganand2046",
         "MONGO_PASSWORD": "anuraganand2046",
         "MONGO_DEFAULT_DATABASE": "messages",
-        "PORT": "8080",
+        "PORT": "8080"
     }
 }
 

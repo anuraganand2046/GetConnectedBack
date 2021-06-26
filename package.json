@@ -8,7 +8,9 @@
   },
   "scripts": {
     "test": "mocha",
-    "start": "nodemon app.js"
+    "start": "NODE_ENV=production MONGO_USER=anuraganand2046 MONGO_PASSWORD=anuraganand2046 MONGO_DEFAULT_DATABASE=messages PORT=3000 node app.js",
+    "start-server": "node app.js",
+    "start:dev": "nodemon app.js"
   },
   "author": "anuraganand",
   "license": "ISC",
