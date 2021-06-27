@@ -116,7 +116,7 @@ exports.updatePost=(req, res, next)=>{
             const error= new Error('Could not find the post.');
             error.statusCode= 404;
             throw error;
-        }
+        } 
         //only if the present post was added by the current user it can be deleted.For that the creator id stored in each of the post must match the userId of the user who is requesting.
         if(post.creator.toString()!==req.userId){
             const error= new Error('Not authorized');
